@@ -1,0 +1,21 @@
+@mixin maxMedia{
+    @media (max-width: 799px){
+        @content;
+    }
+}
+
+@mixin overlay($w , $h){
+    position: absolute;
+    width: $w;
+    height: $h;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@mixin prefixer($prop , $val , $prefixes:()){
+    @each $prefix in $prefixes{
+        #{'-' + $prefix + '-' + $prop}: $val;
+    }
+    #{$prop}: $val;
+}

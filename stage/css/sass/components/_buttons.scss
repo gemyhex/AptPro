@@ -1,0 +1,23 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+
+.r-sec{
+    button {
+        border: 2px solid $borderColor;
+        color: $buttonColor;
+        background: transparent;
+        font-size: 16px;
+        padding: 8px 35px;
+        letter-spacing: 1px;
+        @include prefixer(border-radius, 25px, webkit moz o);
+        font-weight: bold;
+        margin-top: 20px;
+
+        &:hover {
+            background: $buttonHoverColor;
+            color: $buttonColor;
+            border: 2px solid borderHoverColor;
+            @include prefixer(transition, all 0.5s ease-in-out, webkit moz o);
+        }
+    }
+}

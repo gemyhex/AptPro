@@ -1,0 +1,70 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+.carousel {
+    height: 800px;
+    .carousel-inner,
+    .carousel-item {
+        height: inherit;
+        .overlay{
+            @include overlay(100% , 100%);
+            background-color: rgba($color: #333, $alpha: 0.6);
+        }
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        left: 30px;
+        margin-left: 0;
+        justify-content: left;
+        label {
+            width: 70px;
+            margin-left: 0;
+            margin-right: 0;
+            color: white;
+            padding: 20px;
+            border-top: rgb(170, 168, 168) 2.2px solid;
+            text-align: center;
+            font-weight: bold;
+            font-size: 21px;
+
+            &.active {
+                border-top: rgb(255, 255, 255) 2.2px solid;
+                transform: rotate(360deg);
+                transition: all 0.8s ease-in-out;
+            }
+
+            &:hover {
+                border-top: rgb(255, 255, 255) 2.2px solid;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .carousel-caption {
+        width: fit-content;
+        position: relative;
+        transform: translate(50% , 60%);
+        
+        text-align: left;
+
+        h5 {
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 100px;
+            line-height: 95px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        p {
+            color: #fff;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+
+}

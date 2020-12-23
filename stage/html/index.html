@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Pro</title>
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid slider-h">
+      <div class="row">
+        <div class="col-lg-12 p-0">
+          <div id="slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <label data-target="#slider" data-slide-to="0" class="active"> 01 </label>
+              <label data-target="#slider" data-slide-to="1"> 02 </label>
+              <label data-target="#slider" data-slide-to="2"> 03 </label>
+              <label data-target="#slider" data-slide-to="3"> 04 </label>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner1.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
+                <div class="overlay">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Group Fitness</h5>
+                    <h2>Personal <br> Trainer</h2>
+                    <p>Shape Your Perfect Body</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner2.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
+                <div class="overlay">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Personal Trainer</h5>
+                    <h2>World Class <br> Fitness</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div> 
+              <div class="carousel-item">
+                <img src="images/banner3.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
+                <div class="overlay">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Group Fitness</h5>
+                    <h2>Personal <br> Trainer</h2>
+                    <p>Shape Your Perfect Body</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner4.jpg" class="d-block w-100 img-fluid img-responsive" alt="...">
+                <div class="overlay">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Personal Trainer</h5>
+                    <h2>World Class <br> Fitness</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-header">
+            <nav class="navbar navbar-expand-lg pl-5 pr-5">
+              <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+              <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="l-sec">
+                        <a href="about.html" class="drop-text">About</a>
+                        <a href="services.html" class="drop-text">Services</a>
+                        <a href="team.html">Team Page</a>
+                        <a href="gallery.html" class="drop-text">Gallery</a>
+                        <a href="blog.html" class="drop-text">Blog Page</a>
+                        <a href="faq.html" class="drop-text">FAQ</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a href="login.html" class="drop-text">Sign In</a>
+                      <a href="signup.html" class="drop-text">Sign Up</a>
+                      <a href="contact.html" class="drop-text">Visit Us</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item join-us">
+                    <button>Join Us</button>
+                  </li>
+                </ul>
+                
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container-fluid parts-sec">
+      <div class="row">
+        <div class="col-xl-3 col-md-6 col-sm-6 p-item p-0">
+          <div class="sec">
+            <img src="images/grid1.jpg">
+            <div id="p-ov" class="overlay">
+              <div class="cont">
+                <i class="fa fa-american-sign-language-interpreting"></i>
+                <h4>Sit Ups</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 p-item p-0">
+          <div class="sec">
+            <img src="images/grid2.jpg">
+            <div id="p-ov" class="overlay">
+              <div class="cont">
+                <i class="fa fa-tasks"></i>
+                <h4>Bodybuilding</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 p-item p-0">
+          <div class="sec">
+            <img src="images/grid3.jpg">
+            <div id="p-ov" class="overlay">
+              <div class="cont">
+                  <i class="fa fa-adjust"></i>
+                  <h4>Lifting Barbell</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 p-item p-0">
+          <div class="sec">
+            <img src="images/grid4.jpg">
+            <div id="p-ov" class="overlay">
+              <div class="cont">
+                <i class="fa fa-bell-o"></i>
+                <h4>Raiseing Dumbbells</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 abt-sec">
+          <div class="row">
+            <div class="col-xl-6 l-sec">
+              <img src="images/ab.jpg">
+            </div>
+            <div class="col-xl-6 r-sec">
+              <h4><span>Real History</span><br>
+                About Apt Pro
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur
+                consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+                tenetur consequatur adipisicing elit.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur
+                consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+                tenetur consequatur adipisicing elit.</p>
+              <button> Read More </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row count-sec">
+        <div class="col-xl-3 col-md-6 col-sm-6 c-item">
+          <div class="co">
+            <i class="fa fa-lightbulb-o">
+              <div class="overlay">
+              </div>
+            </i>
+          </div>
+          <p class="counter">645</p>
+          <h4>Batches</h4>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 c-item">
+          <div class="co">
+            <i class="fa fa-heart-o"></i>
+              <div class="overlay">
+              </div>
+            </i>
+          </div>
+          <p class="counter">563</p>
+          <h4>Satisfied Clients</h4>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 c-item">
+          <div class="co">
+            <i class="fa fa-shield"></i>
+              <div class="overlay">
+              </div>
+            </i>
+          </div>
+          <p class="counter">1145</p>
+          <h4>AWARDS</h4>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 c-item">
+          <div class="co">
+            <i class="fa fa-smile-o"></i>
+              <div class="overlay">
+              </div>
+            </i>
+          </div>
+          <p class="counter">1045</p>
+          <h4>HAPPY TRAINERS</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row rdy-sec">
+        <div class="col-xl-6 r-sec">
+          <h4><span>Get Ready</span><br>
+            Transform Your Life
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur
+            consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+            tenetur consequatur adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur
+            consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+            tenetur consequatur adipisicing elit.</p>
+          <button> Read More </button>
+        </div>
+        <div class="col-xl-6 l-sec p-0">
+          <img src="images/ab1.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container chus-sec">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-6 chus-item">
+              <h4><a href="#feature" class="title-head">Flexibility and patience</a></h4>
+              <p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-6 chus-item">
+              <h4><a href="#feature" class="title-head">Experienced trainers</a></h4>
+              <p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-6 chus-item">
+              <h4><a href="#feature" class="title-head">Free trial session</a></h4>
+              <p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-6 chus-item">
+              <h4><a href="#feature" class="title-head">Quality and security</a></h4>
+              <p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-md-12 r-sec">
+          <h4><span>Why choose us?</span><br>
+            We’re the best
+          </h4>
+          <p>Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus
+            consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.</p>
+          <p>In non nisi quis metus tempor efficitur a ut odio. Phasellus posuere tellus in interdum venenatis.
+            Curabitur aliquam quam dictum est vestibulum aliquet, viverra in. Aenean a rutrum magna.</p>
+          <button> Get Started </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid trn-sec">
+      <div class="row">
+        <div class="col-xl-12 t-p p-5">
+          <h4><span>Train With Us</span><br>
+            Popular Classes
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-md-6 col-sm-6 trn-item p-0">
+          <div class="trn-ban">
+            <img src="images/g1.jpg" class="img-responsive">
+            <div class="trn-overlay px-5">
+              <h4><span>Cross Fit</span></h4>
+              <p>Neque porro quisquam est.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 trn-item p-0">
+          <div class="trn-ban">
+            <img src="images/grid3.jpg" class="img-responsive">
+            <div class="trn-overlay px-5">
+              <h4><span>Aerobic</span></h4>
+              <p>Neque porro quisquam est.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 trn-item p-0 ">
+          <div class="trn-ban">
+            <img src="images/grid5.jpg" class="img-responsive">
+            <div class="trn-overlay px-5">
+              <h4><span>Gym</span></h4>
+              <p>Neque porro quisquam est.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 trn-item p-0">
+          <div class="trn-ban">
+            <img src="images/grid6.jpg" class="img-responsive">
+            <div class="trn-overlay px-5">
+              <h4><span>Fitness</span></h4>
+              <p>Neque porro quisquam est.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-6 trn-item p-0">
+          <div class="trn-ban">
+            <img src="images/grid4.jpg" class="img-responsive">
+            <div class="trn-overlay px-5">
+              <h4><span>Zumba</span></h4>
+              <p>Neque porro quisquam est.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-md-6 col-sm-6 trn-item p-0 ">
+          <div class="trn-ban">
+            <img src="images/g2.jpg" class="img-responsive">
+            <div class="trn-overlay px-5">
+              <h4><span>Workout</span></h4>
+              <p>Neque porro quisquam est.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid pln-f">
+      <div class="container pln-sec">
+        <div class="row">
+          <div class="col-xl-12 t-p p-5">
+            <h4><span>Choose A Plan</span><br>
+              Our Plans
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 pln-item text-center">
+            <h4>Light plan</h4>
+            <h5>$35 <span>/ month</span></h5>
+            <div class="pricing-bottom">
+              <div class="pricing-bottom-bottom">
+                <ul class="links">
+                  <li>
+                    <h6 class="tick-info">Gym</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Fitness</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Sauna</h6>
+                    <div class="tick-mark"><span class="fa fa-times"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Massage</h6>
+                    <div class="tick-mark"><span class="fa fa-times"></span></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="buy-button">
+                <a class="popup btn" href="contact.html">Get Started</a>
+              </div>
+              <p class="includes">Flat 35% OFF</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 pln-item text-center">
+            <h4>Advanced Plan</h4>
+            <h5>$79 <span>/ month</span></h5>
+            <div class="pricing-bottom">
+              <div class="pricing-bottom-bottom">
+                <ul class="links">
+                  <li>
+                    <h6 class="tick-info">Gym</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Fitness</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Sauna</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Massage</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="buy-button">
+                <a class="popupc btn" href="contact.html">Get Started</a>
+              </div>
+              <p class="includes">Flat 35% OFF</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 pln-item text-center">
+            <h4>Powerful Plan</h4>
+            <h5>$95 <span>/ month</span></h5>
+            <div class="pricing-bottom">
+              <div class="pricing-bottom-bottom">
+                <ul class="links">
+                  <li>
+                    <h6 class="tick-info">Gym</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Fitness</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Sauna</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                  <li>
+                    <h6 class="tick-info">Massage</h6>
+                    <div class="tick-mark"><span class="fa fa-check"></span></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="buy-button">
+                <a class="popup btn" href="contact.html">Get Started</a>
+              </div>
+              <p class="includes">Flat 35% OFF</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12 fit-sec p-0">
+          <div class="fit-ban">
+            <img src="images/banner3.jpg" class="img-responsive">
+            <div class="overlay text-center">
+              <h6>FIT FOR LIFE</h6>
+              <h2>If you appreciate quality,<br> then we are for you.</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati natus illum,<br> placeat nam
+                consequatur!</p>
+              <button><span class="fa fa-play"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container sub-sec">
+      <div class="row">
+        <div class="col-xl-6">
+          <h4><span>Lets Stay In Touch</span><br>
+            Subscribe Our Newsletter
+          </h4>
+        </div>
+        <div class="col-xl-6 frm-sub">
+          <input type="text" placeholder="Your Email Here">
+          <button>Sub</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid test-sec">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <h4><span>Testimonials</span><br>
+                Happy Clients
+              </h4>
+            </div>
+            <div class="col-xl-3 col-md-4 col-xs-3 test-item">
+              <div class="card-info">
+                <p class="card-text">Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                  consectetur adipisicing elit.Ea consequuntur illum facere.</p>
+                <a href="#link" class="customer-link">
+                  <h3 class="card-title">Fiona Williams</h3>
+                </a>
+              </div>
+              <div class="card-img">
+                <img class="card-img-top img-responsive" src="images/c1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 test-item">
+              <div class="card-info">
+                <p class="card-text">Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                  consectetur adipisicing elit.Ea consequuntur illum facere.</p>
+                <a href="#link" class="customer-link">
+                  <h3 class="card-title">Mark Finch</h3>
+                </a>
+              </div>
+              <div class="card-img">
+                <img class="card-img-top img-responsive" src="images/c2.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 test-item">
+              <div class="card-info">
+                <p class="card-text">Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                  consectetur adipisicing elit.Ea consequuntur illum facere.</p>
+                <a href="#link" class="customer-link">
+                  <h3 class="card-title">Laura Sten</h3>
+                </a>
+              </div>
+              <div class="card-img">
+                <img class="card-img-top img-responsive" src="images/c3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section>
+      <div class="container footer-sec">
+        <div class="row">
+          <div class="col-xl-12 fo-p">
+            <h4>This Winter! Save 50% Off here</h4>
+            <p class="para-sep">Take Care of your body.It is the place you have ,live in <a href="login.html">Became a
+                Member</a></p>
+          </div>
+          <div class="container-fluid fo-se">
+            <div class="row">
+              <div class="col-xl-4 col-md-12 fo-pp">
+                <h6>About </h6>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                  doloremque
+                  laudantium, totam rem aperiam, eaque ipsa quae ab.
+                </p>
+                <ul class="social">
+                  <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                  </li>
+                  <li><a href="#linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                  </li>
+                  <li><a href="#twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                  </li>
+                  <li><a href="#google"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                  </li>
+                  <li><a href="#github"><span class="fa fa-github" aria-hidden="true"></span></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xl-2 col-md-6 col-xs-6 fo-pp-t">
+                <h6>Quick links</h6>
+                <ul>
+                  <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>Home</a>
+                  </li>
+                  <li><a href="about.html"><span class="fa fa-angle-double-right mr-2"></span>About</a>
+                  </li>
+                  <li><a href="services.html"><span class="fa fa-angle-double-right mr-2"></span>Services</a></li>
+                  <li><a href="contact.html"><span class="fa fa-angle-double-right mr-2"></span>Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="col-xl-3 col-md-6 col-xs-6 fo-pp-t">
+                <h6>Help &amp; Support</h6>
+                <ul>
+                  <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>Live
+                      Chart</a></li>
+                  <li><a href="faq.html"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
+                  </li>
+                  <li><a href="#support"><span class="fa fa-angle-double-right mr-2"></span>Support</a></li>
+                  <li><a href="#terms"><span class="fa fa-angle-double-right mr-2"></span>Terms
+                      of Services</a></li>
+                </ul>
+              </div>
+              <div class="col-xl-3 col-md-12 col-xs-12 fo-pp-t">
+                <h6>Contact </h6>
+                <div class="column">
+                  <div class="href"><span class="fa fa-envelope-o" aria-hidden="true"></span><a
+                      href="mailto:info@example.com">meshoinc2017@gmail.com</a>
+                  </div>
+                  <div class="href"><span class="fa fa-phone" aria-hidden="true"></span><a
+                      href="tel:+11-28-514-199">+11-28-514-199</a>
+                  </div>
+                  <div>
+                    <p class="contact"><span class="fa fa-map-marker" aria-hidden="true"></span>GG, 235 MM,
+                      1001</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
